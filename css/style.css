@@ -44,7 +44,8 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #306445;
 }
 
@@ -60,19 +61,153 @@ nav .maun-list li a {
     font-size: 16px;
     font-weight: 500;
 }
+
 /* banner-section */
 
 
+.banner-section {
+    background-image: url("../assets/hero-bg.png");
+    background-color:
+        rgba(0, 0, 0, 0.7);
+    background-blend-mode:
+        darken 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0px;
+}
 
+.banner-container {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+.banner-tittle {
+    width: 280px;
+    padding: 15px 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.banner-tittle h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
 
+.banner-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #469165;
+    position: relative;
+    z-index: 1;
+}
 
+.banner-icon::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #46916586;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
+.banner-icon::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #46916555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
 
+.banner-tittle h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #306445;
+}
 
+.banner-text-contain h2 {
+    /* width: 770px; */
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 84px;
+    color: white;
+    padding: 20px 250px;
+}
 
+.banner-text-contain h2 span {
+    color: #30B868;
+}
 
+.banner-text-contain p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    padding: 20px 320px;
+}
+.banner-btn-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.banners-btn {
+    padding: 15px 30px;
+    background-color: #469165;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banners-btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.banner-btn:hover {
+    background-color: #306445;
+    border: none;
+}
 
 
 
