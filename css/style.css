@@ -397,7 +397,6 @@ nav .maun-list li a {
     font-weight: bold;
     line-height: 48px;
     text-transform: capitalize;
-    margin-bottom: 20px;
 }
 .ready-text-container p{
     font-size: 16px;
@@ -424,9 +423,54 @@ nav .maun-list li a {
     font-size: 10px;
     color: #627382;
 }
+/* footer-section */
+footer{
+    background-color: #001931;
+    margin-top: 80px;
+}
+.footer-container{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social h6{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
 
+.social-icon {
+   display: flex;
+   gap: 10px;
+   justify-content: space-between;
+   align-items: center;
+}
+.social-icon  i{
+    width: 30px;
+    height: 30px;
+    background: #F7F6F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
 
-
-
-
-/* banner-section */
+.footer-end{
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.footer-end p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+}
