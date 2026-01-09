@@ -254,7 +254,8 @@ nav .maun-list li a {
 }
 
 .structure-card {
-    padding: 20px 16px;
+    min-width: 250px;
+    padding: 30px 15px;
     border: none;
     border-radius: 5px;
     display: flex;
@@ -301,7 +302,7 @@ nav .maun-list li a {
 }
 
 .structure-card h3 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 29px;
     margin: 15px 0;
@@ -315,32 +316,117 @@ nav .maun-list li a {
 
 /* brain-section */
 
+.brain-section {
+    margin-top: 80px;
+}
+
+
+.brain-container {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brain-img img {
+    max-width: 556px;
+}
+
+.brain-text-container h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #469165;
+    margin-bottom: 20px;
+}
+
+.brain-text-container h2 {
+    max-width: 600px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+.brain-text-container p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+.brain-list-item .brain-item {
+    display: flex;
+    gap: 10px;
+}
+
+.brain-item i {
+    font-size: 16px;
+    color: #30B868;
+}
+.brain-item p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #001931;
+}
+
+/* ready-section */
+.ready-section{
+    margin: 80px;
+}
+.ready-container{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 50px 50px;
+
+}
+.ready-container h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ready-text-container p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 20px 150px;
+}
+.ready-item{
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 0;
+}
+
+.ready-item h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+
+}
+
+.ready-item i{
+    font-size: 10px;
+    color: #627382;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* banner-section */
 /* banner-section */
