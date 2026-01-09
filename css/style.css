@@ -371,6 +371,7 @@ nav .maun-list li a {
     font-size: 16px;
     color: #30B868;
 }
+
 .brain-item p {
     font-size: 16px;
     font-weight: 600;
@@ -379,10 +380,11 @@ nav .maun-list li a {
 }
 
 /* ready-section */
-.ready-section{
+.ready-section {
     margin: 80px;
 }
-.ready-container{
+
+.ready-container {
     width: 80%;
     max-width: 1300px;
     margin: 0 auto;
@@ -392,43 +394,48 @@ nav .maun-list li a {
     padding: 50px 50px;
 
 }
-.ready-container h2{
+
+.ready-container h2 {
     font-size: 42px;
     font-weight: bold;
     line-height: 48px;
     text-transform: capitalize;
 }
-.ready-text-container p{
+
+.ready-text-container p {
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
     padding: 20px 150px;
 }
-.ready-item{
+
+.ready-item {
     display: flex;
     gap: 15px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 20px 0;
 }
 
-.ready-item h6{
+.ready-item h6 {
     font-size: 16px;
     font-weight: 500;
     color: #627382;
 
 }
 
-.ready-item i{
+.ready-item i {
     font-size: 10px;
     color: #627382;
 }
+
 /* footer-section */
-footer{
+footer {
     background-color: #001931;
     margin-top: 80px;
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     max-width: 1300px;
     margin: 0 auto;
@@ -436,7 +443,8 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.footer-social h6{
+
+.footer-social h6 {
     font-size: 24px;
     font-weight: 600;
     line-height: 20px;
@@ -445,12 +453,13 @@ footer{
 }
 
 .social-icon {
-   display: flex;
-   gap: 10px;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
-.social-icon  i{
+
+.social-icon i {
     width: 30px;
     height: 30px;
     background: #F7F6F2;
@@ -459,18 +468,21 @@ footer{
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
-    
+
 }
 
-.footer-end{
+.footer-end {
     width: 80%;
     max-width: 1360px;
     margin: 0 auto;
 }
-.footer-end p{
+
+.footer-end p {
     font-size: 16px;
     font-weight: 500;
     padding: 20px 0px;
     text-align: center;
     color: white;
 }
+
+/* End */
