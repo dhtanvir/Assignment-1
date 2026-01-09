@@ -25,8 +25,8 @@ header {
 }
 
 nav {
-    width: 80%;
-    max-width: 1360px;
+    width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -79,8 +79,8 @@ nav .maun-list li a {
 
 .banner-container {
     margin: 40px auto;
-    width: 80%;
-    max-width: 1360px;
+    width: 70%;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,13 +90,14 @@ nav .maun-list li a {
 
 .banner-tittle {
     width: 280px;
-    padding: 15px 30px;
+    padding: 16px 30px;
     background-color: white;
     text-align: center;
     border-radius: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .banner-tittle h6 {
@@ -105,18 +106,19 @@ nav .maun-list li a {
 }
 
 .banner-icon {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background: #469165;
     position: relative;
     z-index: 1;
+    transform: translate(-50%, -50%);
 }
 
 .banner-icon::before {
     content: "";
-    width: 22px;
-    height: 22px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background: #46916586;
     position: absolute;
@@ -128,8 +130,8 @@ nav .maun-list li a {
 
 .banner-icon::after {
     content: "";
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background: #46916555;
     position: absolute;
@@ -147,13 +149,13 @@ nav .maun-list li a {
 }
 
 .banner-text-contain h2 {
-    /* width: 770px; */
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: capitalize;
     line-height: 84px;
     color: white;
-    padding: 20px 250px;
+    padding: 8px 90px;
+
 }
 
 .banner-text-contain h2 span {
@@ -161,17 +163,20 @@ nav .maun-list li a {
 }
 
 .banner-text-contain p {
+    min-width: 500px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     color: white;
-    padding: 20px 320px;
+    padding: 20px 90px;
 }
-.banner-btn-container{
+
+.banner-btn-container {
     display: flex;
     gap: 30px;
     margin-top: 20px;
 }
+
 .banners-btn {
     padding: 15px 30px;
     background-color: #469165;
@@ -209,6 +214,106 @@ nav .maun-list li a {
     border: none;
 }
 
+/* Structure-section */
+
+.structure-section {
+    margin-top: 80px;
+}
+
+.structure-container {
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.structure-container h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-bottom: 20px;
+
+}
+
+.structure-container p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #627382;
+
+}
+
+.structure-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.structure-card {
+    padding: 20px 16px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 13px 5px rgba(0, 0, 0, 0.08);
+}
+
+.structure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background: #F95555;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+
+.icon::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: #46916555;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.structure-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    margin: 15px 0;
+}
+
+.structure-card p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* brain-section */
 
 
 
@@ -216,7 +321,26 @@ nav .maun-list li a {
 
 
 
-/* banner-section */
-/* banner-section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* banner-section */
 /* banner-section */
